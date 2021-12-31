@@ -23,32 +23,45 @@ import "assets/vendor/nucleo/css/nucleo.css";
 import "assets/vendor/font-awesome/css/font-awesome.min.css";
 import "assets/scss/argon-design-system-react.scss?v1.1.0";
 
-import Index from "views/Index.js";
-import Landing from "views/examples/Landing.js";
-import Login from "views/examples/Login.js";
-import Profile from "views/examples/Profile.js";
-import Register from "views/examples/Register.js";
+// import Index from "views/Index.js";
+// import Landing from "views/examples/Landing.js";
+// import Login from "views/examples/Login.js";
+// import Profile from "views/examples/Profile.js";
+// import Register from "views/examples/Register.js";
+import HomePage from "views/HomePage";
+import MyProfile from "views/MyProfile";
+import Ask from "views/Ask.js";
+import FrontEnd from "views/Projects/Frontend";
+import Backend from "views/Projects/Backend";
+import Blockchain from "views/Projects/Blockchain";
+import Engineering from "views/Projects/Engineering";
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/" exact render={props => <Index {...props} />} />
+      <Route path="/" exact render={(props) => <HomePage {...props} />} />
+      <Route path="/backend" exact render={(props) => <Backend {...props} />} />
       <Route
-        path="/landing-page"
+        path="/blockchain"
         exact
-        render={props => <Landing {...props} />}
-      />
-      <Route path="/login-page" exact render={props => <Login {...props} />} />
-      <Route
-        path="/profile-page"
-        exact
-        render={props => <Profile {...props} />}
+        render={(props) => <Blockchain {...props} />}
       />
       <Route
-        path="/register-page"
+        path="/engineering"
         exact
-        render={props => <Register {...props} />}
+        render={(props) => <Engineering {...props} />}
       />
+      <Route
+        path="/frontend"
+        exact
+        render={(props) => <FrontEnd {...props} />}
+      />
+      <Route
+        path="/profile"
+        exact
+        render={(props) => <MyProfile {...props} />}
+      />
+      <Route path="/reachout" exact render={(props) => <Ask {...props} />} />
       <Redirect to="/" />
     </Switch>
   </BrowserRouter>,
