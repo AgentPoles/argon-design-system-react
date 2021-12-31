@@ -52,7 +52,6 @@
     "classnames": "2.3.1",
     "headroom.js": "0.12.0",
     "moment": "2.29.1",
-    "node-sass": "5.0.0",
     "nouislider": "14.7.0",
     "react": "17.0.2",
     "react-datetime": "2.16.3",
@@ -60,7 +59,9 @@
     "react-router": "5.2.0",
     "react-router-dom": "5.2.0",
     "react-scripts": "4.0.3",
-    "reactstrap": "8.9.0"
+    "reactstrap": "8.9.0",
+    "sass": "^1.45.2",
+    "sass-loader": "^12.4.0"
   },
   "devDependencies": {
     "@types/googlemaps": "3.43.3",
