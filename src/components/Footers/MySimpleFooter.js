@@ -30,7 +30,7 @@ class MySimpleFooter extends React.Component {
                 </div>
               </Col>
               <Col md="6">
-                <Nav className=" nav-footer justify-content-end">
+                <Nav className=" nav-footer justify-content-center">
                   {/* <NavItem>
                     <NavLink
                       href="https://www.creative-tim.com?ref=adsr-footer"

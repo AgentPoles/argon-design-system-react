@@ -9,6 +9,7 @@ import polesimage from "assets/img/brand/paule.jpg";
 // import SimpleFooter from "components/Footers/SimpleFooter.js";
 import MyNavbar from "components/Navbars/MyNavbar";
 import MySimpleFooter from "components/Footers/MySimpleFooter";
+import { Link } from "react-router-dom";
 
 class MyProfile extends React.Component {
   componentDidMount() {
@@ -23,7 +24,7 @@ class MyProfile extends React.Component {
         <main className="profile-page" ref="main">
           <section className="section-profile-cover section-shaped my-0">
             {/* Circles background */}
-            <div className="shape shape-style-1 shape-default alpha-4">
+            <div className="shape shape-style-1 shape-dark alpha-4">
               <span />
               <span />
               <span />
@@ -73,8 +74,8 @@ class MyProfile extends React.Component {
                         <Button
                           className="mr-4"
                           color="info"
-                          href="#pablo"
-                          onClick={(e) => e.preventDefault()}
+                          href="https://www.linkedin.com/in/paule-oamen/"
+                          // onClick={(e) => e.preventDefault()}
                           size="sm"
                         >
                           Connect
@@ -86,7 +87,9 @@ class MyProfile extends React.Component {
                           onClick={(e) => e.preventDefault()}
                           size="sm"
                         >
-                          Message
+                          <Link to="/reachout">
+                            <span style={{ color: "white" }}>Message</span>
+                          </Link>
                         </Button>
                       </div>
                     </Col>

@@ -53,7 +53,7 @@ class Ask extends React.Component {
                   <Card className="bg-secondary shadow border-0">
                     <CardHeader className="bg-white pb-5">
                       <div className="text-muted text-center mb-3">
-                        <small>Find me</small>
+                        <small style={{ fontWeight: "bold" }}>Find me</small>
                       </div>
                       <div className="text-center">
                         <Button
@@ -65,7 +65,7 @@ class Ask extends React.Component {
                           <span className="btn-inner--icon mr-1">
                             <img alt="..." src={Githublogo} />
                           </span>
-                          <span className="btn-inner--text">Github</span>
+                          {/* <span className="btn-inner--text">Github</span> */}
                         </Button>
                         <Button
                           className="btn-neutral btn-icon ml-1"
@@ -76,7 +76,7 @@ class Ask extends React.Component {
                           <span className="btn-inner--icon mr-1">
                             <img alt="..." src={Linkedlinlogo} />
                           </span>
-                          <span className="btn-inner--text">Linkedin</span>
+                          {/* <span className="btn-inner--text">Linkedin</span> */}
                         </Button>
                       </div>
                     </CardHeader>

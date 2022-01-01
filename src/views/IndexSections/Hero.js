@@ -62,7 +62,7 @@ class Hero extends React.Component {
                       Front-end: React.Js, Next.js
                     </p>
                     <p className="lead text-white">
-                      Back-end: Node.Js (intermediate), PHP, Moralis
+                      Back-end: Node.Js, PHP, Moralis
                     </p>
                     <p className="lead text-white">
                       Blockchain: Solidity, Web3.js, Truffle

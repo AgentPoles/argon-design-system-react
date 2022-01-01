@@ -181,7 +181,10 @@ class MyNavbar extends React.Component {
                       </div>
                     </DropdownMenu>
                   </UncontrolledDropdown>
-                  <UncontrolledDropdown nav>
+                  <UncontrolledDropdown
+                    className="d-none d-lg-block ml-lg-4"
+                    nav
+                  >
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
                       <Link>
@@ -244,12 +247,12 @@ class MyNavbar extends React.Component {
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem className="">
-                    <Link to="/reachout">
+                    <Link to="/profile">
                       <Button
                         className="btn-neutral btn-icon"
                         color="default"
                         //   href="www.linkedin.com/in/paule-oamen"
-                        target="_blank"
+                        // target="_blank"
                       >
                         <span className="btn-inner--icon">
                           <i className="fa fa-link mr-2" />

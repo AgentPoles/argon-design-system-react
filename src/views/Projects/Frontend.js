@@ -96,7 +96,7 @@ class FrontEnd extends React.Component {
                         <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="github"
-                          href="https://github.com/creativetimofficial/argon-design-system-react"
+                          href="https://github.com/AgentPoles"
                           size="lg"
                           target="_blank"
                         >
@@ -167,7 +167,7 @@ class FrontEnd extends React.Component {
                             className="mt-4"
                             color="primary"
                             href="https://tensel.netlify.app/"
-                            onClick={(e) => e.preventDefault()}
+                            // onClick={(e) => e.preventDefault()}
                             target="_blank"
                           >
                             See Current look
@@ -205,7 +205,7 @@ class FrontEnd extends React.Component {
                             className="mt-4"
                             color="success"
                             href="https://kabura.netlify.app/"
-                            onClick={(e) => e.preventDefault()}
+                            // onClick={(e) => e.preventDefault()}
                             target="_blank"
                           >
                             See Current Look
@@ -239,8 +239,8 @@ class FrontEnd extends React.Component {
                           <Button
                             className="mt-4"
                             color="warning"
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
+                            href="https://turnnel.netlify.app/"
+                            // onClick={(e) => e.preventDefault()}
                           >
                             See Current Look
                           </Button>
