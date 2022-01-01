@@ -187,14 +187,13 @@ class MyNavbar extends React.Component {
                   >
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <Link>
-                        <span
-                          className="nav-link-inner--text"
-                          style={{ color: "white" }}
-                        >
-                          Blockchain Papers
-                        </span>
-                      </Link>
+
+                      <span
+                        className="nav-link-inner--text"
+                        style={{ color: "white" }}
+                      >
+                        Blockchain Papers
+                      </span>
                     </DropdownToggle>
 
                     {/* <DropdownMenu>
