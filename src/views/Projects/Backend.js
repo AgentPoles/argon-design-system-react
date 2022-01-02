@@ -89,7 +89,7 @@ class BackEnd extends React.Component {
                         {/* <span>completed with examples</span> */}
                       </h1>
                       <p className="lead text-white">
-                        These are some Backendend projects I am currently
+                        These are some Backend end projects I am currently
                         working on, others can be found on GitHub
                       </p>
                       <div className="btn-wrapper">

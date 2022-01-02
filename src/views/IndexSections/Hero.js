@@ -82,7 +82,7 @@ class Hero extends React.Component {
                           size="lg"
                         >
                           <span className="btn-inner--icon mr-1">
-                            <img src={poles} />
+                            <img src={poles} alt="logo" />
                           </span>
                           <span className="btn-inner--text">About me</span>
                         </Button>{" "}
@@ -107,7 +107,7 @@ class Hero extends React.Component {
                     </div>
                     <div className="mt-5">
                       <small className="text-white font-weight-bold mb-0 mr-2">
-                        *nada es impossible para dios*
+                        *nada es imposible para dios*
                       </small>
                       {/* <img
                         alt="..."

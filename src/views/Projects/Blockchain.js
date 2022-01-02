@@ -89,8 +89,8 @@ class BlockChain extends React.Component {
                         {/* <span>completed with examples</span> */}
                       </h1>
                       <p className="lead text-white">
-                        These are some front end projects I am currently working
-                        on, others can be found on GitHub
+                        These are some Blockchain projects I am currently
+                        working on, others can be found on GitHub
                       </p>
                       <div className="btn-wrapper">
                         <Button
@@ -148,11 +148,12 @@ class BlockChain extends React.Component {
                           </h6>
                           <p className="description mt-3">
                             Usefull V2 is a protocol that tries to implement
-                            identity with NFTs, simply put: to do anything on
+                            identity with NFTs. Simply put, to do anything on
                             any platform running on UsefullV2, you would need an
-                            identity which is an NFT. Why Usefull V2? well
-                            because NFTs have inherent financial worth. I'll
-                            leave it at that.
+                            identity which is an NFT. Why Usefull V2? Well
+                            because NFTs have inherent financial worth and this
+                            financial worth can be used as standing for
+                            financial services. I'll leave it at that.
                           </p>
                         </CardBody>
                       </Card>

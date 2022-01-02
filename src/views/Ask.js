@@ -30,29 +30,32 @@ import emailjs from "emailjs-com";
 
 const Ask = () => {
   const [userData, setUserData] = useState({ from_name: "", message: "" });
-  const [sent, setSent] = useState(true);
+  // const [sent, setSent] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   function sendEmail(e) {
     e.preventDefault();
-
-    emailjs
-      .send(
-        "service_wl5wj3o",
-        "template_gut6ftz",
-        userData,
-        "user_Qi06GFI32mGu84Vc1pZE7"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          alert(
-            "I have received your message, thanks a lot, will respond Asap"
-          );
-        },
-        (error) => {
-          alert("I couldnt get your messaga, system says " + error.text);
-        }
-      );
+    setIsLoading(true);
+    // emailjs
+    //   .send(
+    //     "service_wl5wj3o",
+    //     "template_gut6ftz",
+    //     userData,
+    //     "user_Qi06GFI32mGu84Vc1pZE7"
+    //   )
+    //   .then(
+    //     (result) => {
+    //       console.log(result.text);
+    //       setIsLoading(false);
+    //       alert(
+    //         "I have received your message, thanks a lot, will respond Asap"
+    //       );
+    //     },
+    //     (error) => {
+    //       setIsLoading(false);
+    //       alert("I couldnt get your messaga, system says " + error.text);
+    //     }
+    //   );
   }
   let handleChange = (e) => {
     setUserData({
@@ -123,6 +126,7 @@ const Ask = () => {
                             placeholder="valid email or number"
                             type="text"
                             name="from_name"
+                            required="true"
                             onChange={(e) => handleChange(e)}
                           />
                         </InputGroup>
@@ -138,12 +142,14 @@ const Ask = () => {
                             placeholder="Message"
                             type="text"
                             name="message"
+                            required="true"
                             onChange={(e) => handleChange(e)}
                           />
                         </InputGroup>
                       </FormGroup>
 
                       <div className="text-center">
+                        {isLoading && <i class="fas fa-cog fa-spin"></i>}
                         <Button
                           className="mt-4"
                           color="primary"
