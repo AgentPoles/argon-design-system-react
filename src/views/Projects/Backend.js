@@ -147,10 +147,11 @@ class BackEnd extends React.Component {
                             Tensel
                           </h6>
                           <p className="description mt-3">
-                            Tensel hopes to be a decentralized market, where
-                            people can buy digital and non-digital assets from
-                            peers, AI, organizations and Contracts. It would use
-                            Usefull V2 and it is still at a very early stage.
+                            Tensel hopes to be a decentralized market place,
+                            where people can buy digital and non-digital assets
+                            from their peers, AI, organizations and Contracts.
+                            It would use Usefull V2 and it is still at a very
+                            early stage.
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
@@ -184,9 +185,9 @@ class BackEnd extends React.Component {
                             Kabura.finance
                           </h6>
                           <p className="description mt-3">
-                            Kabura.finance seeks to be a decentralied bank,
-                            where you can borrow, lend, save and invest on
-                            digital assests and non digital assests. It would
+                            Kabura.finance seeks to be a decentralied financial
+                            system, where you can borrow, lend, save and invest
+                            on digital assests and non digital assests. It would
                             use UsefullV2 and it is still at a very early stage
                           </p>
                           <div>
@@ -224,7 +225,7 @@ class BackEnd extends React.Component {
                             Turnnel seeks to be a blockchain search engine,
                             Payment gateway and universal receipt generator. it
                             would make use of UsefullV2 and it is still at a
-                            very early stage
+                            very early stage.
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">

@@ -178,6 +178,22 @@ class MyNavbar extends React.Component {
                             </Link>
                           </Media>
                         </Media>
+                        <Media
+                          className="d-flex align-items-center"
+                          href=""
+                          target="_blank"
+                        >
+                          <div className="icon icon-shape bg-gradient-info rounded-circle text-white">
+                            <i className="ni ni-note-03" />
+                          </div>
+                          <Media body className="ml-3">
+                            <Link>
+                              <h5 className="heading text-info mb-md-1">
+                                Music
+                              </h5>
+                            </Link>
+                          </Media>
+                        </Media>
                       </div>
                     </DropdownMenu>
                   </UncontrolledDropdown>

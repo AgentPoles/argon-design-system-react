@@ -147,12 +147,13 @@ class Engineering extends React.Component {
                             Adaptive Control Traffic Lights
                           </h6>
                           <p className="description mt-3">
-                            This hopes to use fuzzy logic to determine green and
-                            red time of a traffic light at a given point in
-                            time, Hence traffic light would not operate with a
-                            fixed time, but rather based on the traffic
-                            situation at a given point in time. Would add a Dapp
-                            to integrate public consensus
+                            This hopes to use fuzzy logic to determine the green
+                            time of traffic lights at a given point in time.
+                            Hence, traffic lights would not operate with a fixed
+                            time, but rather operate based on the traffic
+                            situation at that point. I'm thinking of adding a
+                            Dapp to integrate public consensus in deternming the
+                            fuzzy rules.
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
@@ -179,7 +180,8 @@ class Engineering extends React.Component {
                           </h6>
                           <p className="description mt-3">
                             Researching possible sources of renewable energy
-                            that can be integrated with electric vehicles
+                            that can be integrated with electric vehicles and
+                            managing possible effects of lightening
                           </p>
                         </CardBody>
                       </Card>
