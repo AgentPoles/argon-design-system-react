@@ -56,7 +56,8 @@ class Hero extends React.Component {
                       "paul oamen"
                     </div> */}
                     <p className="lead text-white">
-                      Languages: Javascript, Java, C++, Python
+                      Languages: Javascript, Java, C++, Python, English, Yoruba,
+                      Spanish (beginner)
                     </p>
                     <p className="lead text-white">
                       Front-end: React.Js, Next.js
@@ -72,13 +73,37 @@ class Hero extends React.Component {
                     <p className="lead text-white">
                       DevOps: Kubernetes, Docker{" "}
                     </p>
+                    <p className="lead text-white">
+                      Engineering: Circuit Design and construction,
+                      Micro-controller Programming, Matlab
+                    </p>
+
+                    <p className="lead text-white">
+                      Music: Guitar, Voice (just after beginner 😂 )
+                    </p>
+                    <p className="lead text-white">
+                      Games: Chess (not so tough any more 😓)
+                    </p>
+                    <Button
+                      className="btn-icon"
+                      color="warning"
+                      type="button"
+                      size="sm"
+                      href="https://www.chess.com/member/paulepoles"
+                      target="blank"
+                    >
+                      <span className="btn-inner--icon">
+                        <i class="fas fa-chess-knight"></i>
+                      </span>
+                      <span className="btn-inner--text">play me</span>
+                    </Button>
                     {/* <p className="lead text-white">Engineering: Matlab </p> */}
                     <div className="btn-wrapper mt-5">
                       <Link to="profile">
                         <Button
                           className="btn-white btn-icon mb-3 mb-sm-0"
                           color="default"
-                          href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                          // href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
                           size="lg"
                         >
                           <span className="btn-inner--icon mr-1">
