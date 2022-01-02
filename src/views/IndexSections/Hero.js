@@ -57,7 +57,7 @@ class Hero extends React.Component {
                     </div> */}
                     <p className="lead text-white">
                       Languages: Javascript, Java, C++, Python, English, Yoruba,
-                      Spanish (beginner)
+                      Just starting spanish
                     </p>
                     <p className="lead text-white">
                       Front-end: React.Js, Next.js
