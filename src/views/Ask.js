@@ -36,26 +36,26 @@ const Ask = () => {
   function sendEmail(e) {
     e.preventDefault();
     setIsLoading(true);
-    // emailjs
-    //   .send(
-    //     "service_wl5wj3o",
-    //     "template_gut6ftz",
-    //     userData,
-    //     "user_Qi06GFI32mGu84Vc1pZE7"
-    //   )
-    //   .then(
-    //     (result) => {
-    //       console.log(result.text);
-    //       setIsLoading(false);
-    //       alert(
-    //         "I have received your message, thanks a lot, will respond Asap"
-    //       );
-    //     },
-    //     (error) => {
-    //       setIsLoading(false);
-    //       alert("I couldnt get your messaga, system says " + error.text);
-    //     }
-    //   );
+    emailjs
+      .send(
+        "service_wl5wj3o",
+        "template_gut6ftz",
+        userData,
+        "user_Qi06GFI32mGu84Vc1pZE7"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setIsLoading(false);
+          alert(
+            "I have received your message, thanks a lot, will respond Asap"
+          );
+        },
+        (error) => {
+          setIsLoading(false);
+          alert("I couldnt get your messaga, system says " + error.text);
+        }
+      );
   }
   let handleChange = (e) => {
     setUserData({
