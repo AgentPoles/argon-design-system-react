@@ -93,7 +93,7 @@ const Ask = () => {
                         className="btn-neutral btn-icon mr-4"
                         color="default"
                         href="https://github.com/AgentPoles"
-                        onClick={(e) => e.preventDefault()}
+                        // onClick={(e) => e.preventDefault()}
                       >
                         <span className="btn-inner--icon mr-1">
                           <img alt="..." src={Githublogo} />
@@ -103,8 +103,8 @@ const Ask = () => {
                       <Button
                         className="btn-neutral btn-icon ml-1"
                         color="default"
-                        href="www.linkedin.com/in/paule-oamen"
-                        onClick={(e) => e.preventDefault()}
+                        href="https://www.linkedin.com/in/paule-oamen/"
+                        // onClick={(e) => e.preventDefault()}
                       >
                         <span className="btn-inner--icon mr-1">
                           <img alt="..." src={Linkedlinlogo} />
