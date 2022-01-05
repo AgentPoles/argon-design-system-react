@@ -132,7 +132,7 @@ class Hero extends React.Component {
                     </div>
                     <div className="mt-5">
                       <small className="text-white font-weight-bold mb-0 mr-2">
-                        *nada es imposible para dios*
+                        *toda la gloria a dios*
                       </small>
                       {/* <img
                         alt="..."
