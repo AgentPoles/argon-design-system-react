@@ -171,7 +171,8 @@ class BlockChain extends React.Component {
                             Vote Dao is a simple smart contract implementation
                             written in solidity, that allows its members to
                             submit proposals (numbers only) and then vote
-                            proposals
+                            proposals. Do well to try it in Dark mode 😎 by
+                            clicking on the moon symbol in the Header (NavBar)
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
