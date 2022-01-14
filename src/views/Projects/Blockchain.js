@@ -158,6 +158,50 @@ class BlockChain extends React.Component {
                         </CardBody>
                       </Card>
                     </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                            <i className="ni ni-istanbul" />
+                          </div>
+                          <h6 className="text-success text-uppercase">
+                            Vote Dao
+                          </h6>
+                          <p className="description mt-3">
+                            Vote Dao is a simple smart contract implementation
+                            written in solidity, that allows its members to
+                            submit proposals (numbers only) and then vote
+                            proposals
+                          </p>
+                          <div>
+                            <Badge color="success" pill className="mr-1">
+                              Solidity
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              Ethers.js
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              HardHat.js
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              Alchemy
+                            </Badge>
+                            {/* <Badge color="success" pill className="mr-1">
+                              success
+                            </Badge> */}
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="success"
+                            href="https://votedao.vercel.app/"
+                            // onClick={(e) => e.preventDefault()}
+                            target="_blank"
+                          >
+                            visit Dao
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
                   </Row>
                 </Col>
               </Row>
