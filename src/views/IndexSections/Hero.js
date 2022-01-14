@@ -66,7 +66,7 @@ class Hero extends React.Component {
                       Back-end: Node.Js, PHP, Moralis
                     </p>
                     <p className="lead text-white">
-                      Blockchain: Solidity, Web3.js, Truffle
+                      Blockchain: Solidity, Ethers.js, Hardhat, Alchemy
                     </p>
                     <p className="lead text-white">Database: MySql, Git, AWS</p>
 
