@@ -162,7 +162,7 @@ class BlockChain extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                            <i className="ni ni-istanbul" />
+                            <i className="ni ni-bus-front-12" />
                           </div>
                           <h6 className="text-success text-uppercase">
                             Vote Dao
@@ -172,7 +172,8 @@ class BlockChain extends React.Component {
                             written in solidity, that allows its members to
                             submit proposals (numbers only) and then vote
                             proposals. Do well to try it in Dark mode 😎 by
-                            clicking on the moon symbol in the Header (NavBar)
+                            clicking on the moon symbol in the Header (NavBar).
+                            Your wallet should be on Ethereum's Rinkeby
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
@@ -184,9 +185,7 @@ class BlockChain extends React.Component {
                             <Badge color="success" pill className="mr-1">
                               HardHat.js
                             </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              Alchemy
-                            </Badge>
+
                             {/* <Badge color="success" pill className="mr-1">
                               success
                             </Badge> */}
