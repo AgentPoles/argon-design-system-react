@@ -249,7 +249,7 @@ class MyNavbar extends React.Component {
                     <NavLink
                       className="nav-link-icon"
                       href="https://www.linkedin.com/in/paule-oamen/"
-                      id="tooltip112445449"
+                      id="tooltip112445459"
                       target="_blank"
                     >
                       <i className="fa fa-linkedin" />
@@ -257,7 +257,7 @@ class MyNavbar extends React.Component {
                         Linkedin
                       </span>
                     </NavLink>
-                    <UncontrolledTooltip delay={0} target="tooltip112445449">
+                    <UncontrolledTooltip delay={0} target="tooltip112445459">
                       connect on Linkedin
                     </UncontrolledTooltip>
                   </NavItem>
