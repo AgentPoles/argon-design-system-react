@@ -202,6 +202,38 @@ class BlockChain extends React.Component {
                         </CardBody>
                       </Card>
                     </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-danger rounded-circle mb-4">
+                            <i className="ni ni-planet" />
+                          </div>
+                          <h6 className="text-danger text-uppercase">
+                            Existence
+                          </h6>
+                          <p className="description mt-3">
+                            With this project I hope to fix a major identity
+                            issue on web3
+                          </p>
+                          <div>
+                            <Badge color="danger" pill className="mr-1">
+                              React
+                            </Badge>
+                            <Badge color="danger" pill className="mr-1">
+                              Tailwind
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="danger"
+                            href="https://existence.vercel.app/"
+                            target="_blank"
+                          >
+                            Visit a simple look
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
                   </Row>
                 </Col>
               </Row>
